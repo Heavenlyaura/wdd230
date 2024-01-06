@@ -21,8 +21,8 @@ body {
 }
 
 hr {
-    border: 3px solid var(--accent1-color);
-    margin: 0 30px;
+  border: 3px solid var(--accent1-color);
+  margin: 0 30px;
 }
 
 header {
@@ -55,38 +55,38 @@ nav a {
 }
 
 h2 {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 /* card styling */
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px solid var(--accent1-color);
-    border-radius: 15px;
-    margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 2px solid var(--accent1-color);
+  border-radius: 15px;
+  margin: 30px;
 }
 
 .card h3 {
-    text-align: center;
-    padding: 20px;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
+  text-align: center;
+  padding: 20px;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
 }
 
 .activities {
-    margin: 20px;
+  margin: 20px;
 }
 
 /* footer */
 
 footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
-    padding: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  padding: 60px;
 }
