@@ -46,35 +46,41 @@ nav a {
 }
 
 h2 {
-  padding: 20px;
   text-align: center;
+  padding: 5px 0;
 }
 
-/* .card p {
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 0 30px;
+}
+
+.card h3 {
+  text-align: center;
   padding: 10px;
-} */
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+}
+
+.card {
+  border: 2px solid var(--accent1-color);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+ol {
+  padding: 10px 40px;
+}
 
 /* footer */
 footer {
-  display: flex;
-  flex-direction: column;
+  margin-top: 20px;
   text-align: center;
   background-color: var(--accent1-color);
   color: var(--accent2-color);
   padding: 40px;
 }
 
-@media screen and (max-width: 640px) {
-  ol {
-    list-style-type: none;
-  }
-
-  .card {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .card h3 {
-    padding: 10px;
-  }
-}
