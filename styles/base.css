@@ -18,6 +18,7 @@ header {
 header h1,
 .profile-picture {
   text-align: center;
+  font-size: large;
 }
 
 * {
@@ -47,7 +48,8 @@ nav a {
 
 h2 {
   text-align: center;
-  padding: 5px 0;
+  padding-top: 20px;
+  font-size: large;
 }
 
 main {
@@ -57,6 +59,7 @@ main {
 }
 
 .card h3 {
+  font-size: medium;
   text-align: center;
   padding: 10px;
   border-top-right-radius: inherit;
@@ -83,4 +86,3 @@ footer {
   color: var(--accent2-color);
   padding: 40px;
 }
-
