@@ -7,6 +7,12 @@
   --accent2-color: #fffbff;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -18,12 +24,6 @@ header {
 header h1,
 .profile-picture {
   text-align: center;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 body {
