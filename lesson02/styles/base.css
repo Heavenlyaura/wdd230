@@ -39,14 +39,14 @@ h3 {
 }
 
 h4,
-a{
+a {
   padding: 10px;
 }
 
 p {
-    padding: 20px;
-    line-height: 1.3em;
-    letter-spacing: .2px;
+  padding: 20px;
+  line-height: 1.3em;
+  letter-spacing: 0.2px;
 }
 
 .card-1,
