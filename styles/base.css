@@ -77,9 +77,9 @@ body {
   color: black;
 }
 
-.clicked {
-  background-color: #fffbff;
-  color: #0f110f;
+.navigation li a:active::before,
+.navigation li a:active::after {
+  content: '|';
 }
 
 .open li {
