@@ -24,7 +24,7 @@ body {
 
 hr {
   width: 80%;
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 2px solid var(--accent1-color);
 }
 
@@ -36,7 +36,8 @@ header {
 }
 
 header h1,
-header h2 {
+header h2,
+.sitename {
   text-decoration: none;
   padding: 10px;
 }
