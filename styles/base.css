@@ -21,6 +21,11 @@ header {
   padding-top: 10px;
 }
 
+header img {
+  width: 100px;
+  aspect-ratio: 1/1;
+}
+
 header h1,
 .profile-picture {
   text-align: center;
