@@ -9,6 +9,10 @@
     font-size: 2rem;
   }
 
+  .sights img {
+    width: 25%;
+  }
+
   .call-to-action {
     padding: 20px;
     font-size: large;
