@@ -49,6 +49,9 @@ header {
   background-color: var(--accent2-color);
   color: var(--primary-color);
   box-shadow: var(--primary-color) 1px 1px 3px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 #menu::before {
