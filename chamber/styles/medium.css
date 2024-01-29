@@ -24,9 +24,13 @@
     justify-content: center;
   }
 
-  .cards {
+  .sights img {
     /* display: block; */
     width: 40%;
     margin: 10px;
+  }
+
+  .advertisment {
+    margin-bottom: 15px;
   }
 }
