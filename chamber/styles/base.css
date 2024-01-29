@@ -28,7 +28,7 @@ a {
   font-family: var(--paragraph-font), sans-serif;
 }
 
-h3 {
+h3, h1 {
   font-family: var(--heading-font), sans-serif;
   padding: 10px;
   text-align: center;
@@ -138,14 +138,12 @@ header {
   flex-direction: column;
 }
 
-.cards {
-  /* display: block; */
-  width: 70%;
+.sights img {
+  display: block;
+  width: 40%;
   height: auto;
   aspect-ratio: 1/1;
   border: 1px solid black;
-  margin: 0 auto;
-  padding-bottom: 10px;
 }
 
 .current-event,
