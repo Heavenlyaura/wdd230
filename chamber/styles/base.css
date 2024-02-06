@@ -13,6 +13,10 @@
 
   --heading-font: DynaPuff;
   --paragraph-font: Roboto;
+
+  --width: 40px;
+  --height: calc((var(--width))/2);
+  --border-radius: calc((var(--height))/2);
 }
 
 body {
@@ -38,6 +42,57 @@ header {
   justify-content: center;
   padding: 20px;
   background-color: var(--accent1-color);
+}
+
+/* toggle */
+
+.toggle-container {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+}
+
+.toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-fill {
+  width: var(--width);
+  height: var(--height);
+  border-radius:var(--border-radius) ;
+  background: #fff;
+  transition: background 0.2s;
+}
+
+.toggle-input:checked ~ .toggle-fill {
+  background-color: var(--primary-color);
+}
+
+.toggle-fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--border-radius);
+  width: var(--height);
+  height: var(--height);
+  background: var(--primary-color);
+  transition: transform 0.2s;
+}
+
+.toggle-input:checked ~ .toggle-fill::after {
+  transform: translateX(var(--height));
+  background: #fff;
+}
+
+.darkmode {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 /* hambuger menu */
@@ -67,24 +122,34 @@ header {
   list-style: none;
   flex-direction: column;
   text-align: center;
-  background-color: var(--primary-color);
+  background-color: var(--accent2-color);
 }
 
 .navigation li a {
   display: block;
   text-decoration: none;
-  color: var(--accent2-color);
+  color: var(--primary-color);
   padding: 15px;
   /* border: 1px solid black; */
 }
 
 .navigation li a:hover {
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 .navigation li {
   display: none;
+}
+
+.navigation-dark li a {
+  background-color: black;
+  color: white;
+}
+
+.navigation-dark li a:hover {
+  background-color: white;
+  color: black;
 }
 
 .open li {
