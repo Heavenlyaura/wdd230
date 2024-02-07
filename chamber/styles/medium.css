@@ -21,12 +21,13 @@
 
   .sights {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .sights img {
     /* display: block; */
-    width: 40%;
+    width: 30%;
+  /* aspect-ratio: 1/1; */
     margin: 10px;
   }
 
