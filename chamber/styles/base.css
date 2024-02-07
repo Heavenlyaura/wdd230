@@ -131,6 +131,7 @@ header {
   text-decoration: none;
   color: var(--primary-color);
   padding: 15px;
+  border-bottom: 1px solid var(--primary-color);
   /* border: 1px solid black; */
 }
 
@@ -146,6 +147,7 @@ header {
 .navigation-dark li a {
   background-color: var(--primary-color);
   color: var(--accent2-color);
+  border-bottom: 1px solid var(--accent2-color);
 }
 
 .navigation-dark li a:hover {
