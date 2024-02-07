@@ -62,6 +62,7 @@ header {
 }
 
 .toggle-fill {
+  display: block;
   width: var(--width);
   height: var(--height);
   border-radius:var(--border-radius) ;
