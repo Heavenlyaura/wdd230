@@ -143,13 +143,13 @@ header {
 }
 
 .navigation-dark li a {
-  background-color: black;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 .navigation-dark li a:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
 }
 
 .open li {
