@@ -27,6 +27,26 @@ header h1,
   text-align: center;
 }
 
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: inline-block;
+  color: #fffbff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px black;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
