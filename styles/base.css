@@ -38,11 +38,11 @@ header h1,
 
 .label {
   position: absolute;
-  top: 1rem;
+  bottom: 2rem;
   left: 1rem;
   display: inline-block;
   color: #fffbff;
-  padding: 10px;
+  padding: 30px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px black;
 }
