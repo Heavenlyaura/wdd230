@@ -45,6 +45,10 @@ header {
   background-color: var(--accent1-color);
 }
 
+.emoji {
+  font-size: xx-large;
+}
+
 /* toggle */
 
 .toggle-container {
@@ -174,7 +178,7 @@ header {
 .hero img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16/9;
+  /* aspect-ratio: 16/9; */
   grid-column: 1/3;
   grid-row: 1/2;
   object-fit: contain;
@@ -183,7 +187,7 @@ header {
 .introduction {
   grid-column: 1/3;
   grid-row: 1/2;
-  color: var(--accent2-color);
+  color: var(--accent1-color);
 }
 
 .introduction p {
