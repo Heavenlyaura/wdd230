@@ -47,6 +47,13 @@ header h1,
   box-shadow: 1px 1px 10px black;
 }
 
+.visit {
+  text-align: center;
+}
+.windchill {
+  word-wrap: break-word;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -133,6 +140,11 @@ main {
   border-radius: 10px;
   margin-top: 10px;
   box-shadow: #362417 3px 3px 10px;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
 }
 
 ol {
