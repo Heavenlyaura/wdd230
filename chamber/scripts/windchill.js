@@ -11,6 +11,7 @@ function celToFah(celsius) {
 }
 
 function calcWindChill(temp, wind) {
+   
     if (temp <= 50 && wind > 3) {
         /* 
         wind chill formular;
@@ -19,13 +20,16 @@ function calcWindChill(temp, wind) {
         Ta = temperature in fahrenheit
         v = wind speed in miles per hour
         */
-        let windChill = 35.74 + (0.6215 * temp) - (35.75 * (wind ** 0.16)) + (0.4275 * temp * (wind ** 0.16)); 
-        return `Wind Chill: ${windChill.toFixed(2)}`;
-    }
-
-    else{
+       try {
+           let windChill = 35.74 + (0.6215 * temp) - (35.75 * (wind ** 0.16)) + (0.4275 * temp * (wind ** 0.16)); 
+           return `Wind Chill: ${windChill.toFixed(2)}`;
+       } catch (error) {
+            console.error('error')
+       }
+    }else{
         return `Wind and Temperature levels are not sufficient to calculate the Wind Chill`
     }
+
 }
 
 async function getWeather (url) {
