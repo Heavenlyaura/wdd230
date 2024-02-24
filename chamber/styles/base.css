@@ -31,7 +31,8 @@ a {
 }
 
 h3,
-h1 {
+h1,
+h4 {
   font-family: var(--heading-font), sans-serif;
   padding: 10px;
   text-align: center;
@@ -251,8 +252,8 @@ footer p {
 }
 
 .images-discover img {
-  width: 90%;
-  height: 200px;
+  width:100% ;
+  height: auto;
   padding: 10px;
 }
 
@@ -264,6 +265,7 @@ aside {
   gap: 20px;
   background-color: var(--accent1-color);
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .aside-dark div {
@@ -280,6 +282,21 @@ aside p {
   margin: 0 auto;
   box-shadow: 1px 1px 10px;
   background-color: var(--accent2-color);
+  border-radius: 10px;
+}
+
+.events {
+  padding: 10px;
+}
+
+.follow a {
+  border: 1px solid var(--accent2-color);
+  padding: .5rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  box-shadow: 1px 1px 10px black;
 }
 
 @media screen and (max-width: 480px) {
