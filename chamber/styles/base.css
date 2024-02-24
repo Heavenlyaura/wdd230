@@ -253,8 +253,10 @@ footer p {
 
 .images-discover img {
   width:100% ;
+  aspect-ratio: 4/3;
   height: auto;
   padding: 10px;
+
 }
 
 aside {
@@ -266,6 +268,7 @@ aside {
   background-color: var(--accent1-color);
   margin-bottom: 20px;
   border-radius: 10px;
+  height: auto;
 }
 
 .aside-dark div {
