@@ -256,7 +256,11 @@ footer p {
   aspect-ratio: 4/3;
   height: auto;
   padding: 10px;
+  transition: transform 0.3s ease;
+}
 
+.images-discover img:hover {
+  transform: scale(1.1);
 }
 
 aside {
@@ -301,6 +305,7 @@ aside p {
   color: var(--accent2-color);
   box-shadow: 1px 1px 10px black;
 }
+
 
 @media screen and (max-width: 480px) {
   h1,
