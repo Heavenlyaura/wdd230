@@ -349,9 +349,9 @@ input:focus {
 }
 
 .submission {
-  height: 90vh;
+  height: 50vh;
   text-align: center;
-  padding: 50% 0;
+  padding: 20% 0;
 }
 
 
