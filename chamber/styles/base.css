@@ -348,6 +348,12 @@ input:focus {
   margin: 10px;
 }
 
+.submission {
+  height: 90vh;
+  text-align: center;
+  padding: 50% 0;
+}
+
 
 @media screen and (max-width: 480px) {
   h1,
