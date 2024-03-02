@@ -37,6 +37,11 @@
 
   /* Dicover Page */
 
+  .joinmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+  }
   
   @media screen and (min-width: 800px) {
   .main-discover {
@@ -73,5 +78,4 @@
     height: 120px;
   }
 }
- 
 }

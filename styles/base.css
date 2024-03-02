@@ -173,6 +173,34 @@ footer {
   padding: 40px;
 }
 
+/* join us */
+
+/* form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 1.5rem auto;
+}
+
+caption {
+  text-align: center;
+}
+
+input, textarea, select {
+  padding: .6rem;
+  margin-bottom: .8rem;
+}
+
+input:focus {
+  background-color: aliceblue;
+}
+
+.benefits {
+  text-align: center;
+  line-height: 1.4rem;
+} */
+
+
 @media screen and (max-width: 640px) {
   h1,
   h2 {
