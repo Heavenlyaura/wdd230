@@ -1,0 +1,106 @@
+{
+  "lessons" : [
+    {
+      "lessons" : "01",
+      "links" : [
+        {
+          "url" : "lesson01/holygrail.html",
+          "title" : "Holy Grail"
+        },
+        {
+          "url" : "lesson01/media-query.html",
+          "title" : "Media Query"
+        }
+      ]
+    },
+    {
+      "lessons" : "02",
+      "links" : [
+        {
+          "url" : "lesson02/design-principles.html",
+          "title" : "Design Principles"
+        },
+        {
+          "url" : "lesson02/design.html",
+          "title" : "Design"
+        }
+      ]
+    },
+    {
+      "lessons" : "03",
+      "links" : [
+        {
+          "url" : "lesson03/images/css-combinator-excersise.png",
+          "title" : "CSS Combinators"
+        },
+        {
+          "url": "https://codepen.io/Goodness-Okafor/pen/poYwXMV",
+          "title" : "Codepen Acitvity"
+        },
+        {
+          "url":"https://codepen.io/Goodness-Okafor/pen/YzgQmjV",
+          "title" : "Codepen Acitvity"
+        }
+      ]
+    },
+    {
+      "lessons" : "04",
+      "links" : [
+        {
+          "url" : "https://codepen.io/Goodness-Okafor/pen/XWGzxEW",
+          "title" : "Codepen Acitvity"
+        }
+      ]
+    },
+    {
+      "lessons" : "05",
+      "links" : [
+        {
+          "url" : "lesson05/bom.html",
+          "title" : "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "lessons" : "06",
+      "links" : [
+        {
+          "url" : "lesson06/responsive-images.html",
+          "title" : "Responsive Images"
+        }
+      ]
+    },
+    {
+      "lessons" : "07",
+      "links" : [
+        {
+          "url" : "lesson07/lazyloading.html",
+          "title" : "Lazy Loading"
+        }
+      ]
+    },
+    {
+      "lessons" : "08",
+      "links" : [
+        {
+          "url" : "form.html",
+          "title" : "Forms"
+        }
+      ]
+    },
+    {
+      "lessons" : "09",
+      "links" : [
+        {
+          "url" : "lesson09/prophets.html",
+          "title" : "Prophets"
+        }
+      ]
+    },
+    {
+      "lessons" : "10",
+      "links" : [
+      ]
+    }
+  ]
+}
