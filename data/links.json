@@ -1,7 +1,7 @@
 {
   "lessons" : [
     {
-      "lessons" : "01",
+      "lesson" : "01",
       "links" : [
         {
           "url" : "lesson01/holygrail.html",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "lessons" : "02",
+      "lesson" : "02",
       "links" : [
         {
           "url" : "lesson02/design-principles.html",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "lessons" : "03",
+      "lesson" : "03",
       "links" : [
         {
           "url" : "lesson03/images/css-combinator-excersise.png",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "lessons" : "04",
+      "lesson" : "04",
       "links" : [
         {
           "url" : "https://codepen.io/Goodness-Okafor/pen/XWGzxEW",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "lessons" : "05",
+      "lesson" : "05",
       "links" : [
         {
           "url" : "lesson05/bom.html",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "lessons" : "06",
+      "lesson" : "06",
       "links" : [
         {
           "url" : "lesson06/responsive-images.html",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "lessons" : "07",
+      "lesson" : "07",
       "links" : [
         {
           "url" : "lesson07/lazyloading.html",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "lessons" : "08",
+      "lesson" : "08",
       "links" : [
         {
           "url" : "form.html",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "lessons" : "09",
+      "lesson" : "09",
       "links" : [
         {
           "url" : "lesson09/prophets.html",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "lessons" : "10",
+      "lesson" : "10",
       "links" : [
       ]
     }
