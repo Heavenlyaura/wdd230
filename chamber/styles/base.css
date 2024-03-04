@@ -354,6 +354,36 @@ input:focus {
   padding: 20% 0;
 }
 
+/* Directory Page */
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-button, .list-button {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .logo.list {
+  display: none;
+} */
 
 @media screen and (max-width: 480px) {
   h1,
