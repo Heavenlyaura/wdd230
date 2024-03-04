@@ -1,0 +1,45 @@
+{
+    "wardInformation": {
+    "familyName": "Okafor",
+    "moveInDate": "2013-12-20",
+    "numberOfPeople": 7,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Goodnesss Okafor",
+        "gender": "Male",
+        "birthdate": "2000-04-4"
+      },
+      {
+        "name": "Promise Okafor",
+        "gender": "Female",
+        "birthdate": "1998-07-13"
+      },
+      {
+        "name": "prosper Okafor",
+        "gender": "Male",
+        "birthdate": "2007-10-18"
+      },
+      {
+        "name": "Florence Okafor",
+        "gender": "Female",
+        "birthdate": "1976-02-15"
+      },
+      {
+        "name": "Michael Okafor",
+        "gender": "Male",
+        "birthdate": "1966-03-13"
+      },
+      {
+        "name": "Heaven Okafor",
+        "gender": "Female",
+        "birthdate": "1998-06-26"
+      },
+      {
+        "name": "Wisdom Okafor",
+        "gender": "Male",
+        "birthdate": "1997-09-15"
+      }
+    ]
+    }
+  }
