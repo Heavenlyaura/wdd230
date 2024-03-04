@@ -23,14 +23,19 @@ function displayCompany(companies) {
     let contact = document.createElement('p');
     let website = document.createElement('a')
 
-    console.log(company.logo)
+    // console.log(company.logo)
     /* set website attribute */
     website.setAttribute('href', company.website)
     website.textContent = company.website
 
     /* set image attribute */ 
-    image.setAttribute('href', company.logo)
+    image.setAttribute('src', company.logo)
     image.setAttribute('alt', `${company.name} logo`)
+    image.setAttribute('width', '200')
+
+    /* set address and contact */
+    address.textContent = company.address
+    contact.textContent = company.contact;;
 
     card.appendChild(image)
     card.appendChild(address)
