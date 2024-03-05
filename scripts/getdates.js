@@ -1,10 +1,15 @@
 // copyright
 const copyrightSymbol = '\u00A9';
-const copyright = document.getElementById("copyright").innerText;
+const copyright = document.querySelector("#copyright");
 const visits = document.querySelector('.visit');
+const footer = document.querySelector('footer');
 let numVisits = Number(localStorage.getItem('numVisit') || 0)
 
 
+
+// footer.style.backgroundColor = 'black'
+
+// footer.textContent = 'thi os breewjds'
 if (numVisits !== 0) {
     visits.textContent = `Visited: ${numVisits}`;
 }
@@ -16,9 +21,11 @@ numVisits++;
 
 localStorage.setItem('numVisit', numVisits)
 
-document.getElementById('copyright').innerText = `Goodness A. Okafor ${copyrightSymbol} 2024 ${copyright}`;
+copyright.textContent = `Goodness A. Okafor ${copyrightSymbol} 2024`;
 
 // last modified
 const lastModified = document.lastModified;
 
-document.getElementById('last-modified').innerText = `Last Modified: ${lastModified}`;
+// console.log(lastModified)
+
+document.querySelector('#last-modified').innerText = `Last Modified: ${lastModified}`;

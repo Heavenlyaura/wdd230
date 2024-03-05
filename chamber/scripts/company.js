@@ -24,7 +24,7 @@ async function getCompany(url) {
 
     if (response.ok) {
         const data = await response.json();
-        console.table(data);
+        // console.table(data);
 
         displayCompany(data.company);
     }
@@ -33,7 +33,7 @@ async function getCompany(url) {
 function displayCompany(companies) {
 
    companies.forEach(company => {
-    console.log(company)
+    // console.log(company)
     let name = document.createElement('p')
     let image = document.createElement('img');
     let card = document.createElement('div');

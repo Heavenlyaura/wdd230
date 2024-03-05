@@ -2,7 +2,7 @@ const select = document.querySelector('select');
 const hidden = document.querySelector('#timestamp')
 const benefit = document.querySelector('.benefits')
 
-console.log(hidden.value = Date.now())
+// console.log(hidden.value = Date.now())
 
 benefit.style.display = 'none';
 

@@ -36,7 +36,7 @@ async function getWeather (url) {
     try {
         const reponse = await fetch(url)
         const data = await reponse.json();
-        console.log(data)
+        // console.log(data)
 
         const temp = data.main.temp;
         const windSpeed = data.wind.speed;

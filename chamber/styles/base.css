@@ -389,6 +389,10 @@ input:focus {
   background-color: #ddd;
 } 
 
+.darkmode .layout.list div:nth-child(odd){
+  color: #0f110f;
+}
+
 .layout.list div {
   transition: none;
   text-align: start;
