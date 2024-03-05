@@ -1,4 +1,4 @@
-const linksURL = "https://heavenlyaura.github.io/wdd230/chamber/data/company.json";
+const linksURL = "https://heavenlyaura.github.io/wdd230/chamber/data/members.json";
 const layout = document.querySelector('.layout');
 const grid = document.querySelector('.grid-button')
 const list = document.querySelector('.list-button')
