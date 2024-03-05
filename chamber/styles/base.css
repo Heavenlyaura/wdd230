@@ -412,11 +412,12 @@ input:focus {
 }
 
 .layout {
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;
 }
 
 .layout div {
+  width: 100%;
   text-align: center;
   padding: 1rem;
   box-shadow: 1px 1px 9px;
