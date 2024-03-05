@@ -356,9 +356,11 @@ input:focus {
 
 /* Directory Page */
 
-.button {
+.buttons {
   display: flex;
   justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .grid-button, .list-button {
@@ -369,21 +371,63 @@ input:focus {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 0;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-}
-
-/* .logo.list {
+.grid .name {
   display: none;
-} */
+}
+
+.list div:nth-child(odd) {
+  background-color: #ddd;
+} 
+
+.layout.list div {
+  transition: none;
+  text-align: start;
+  box-shadow: none;
+  border: none;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+
+.layout.list div:hover {
+  transform: none;
+}
+
+.layout.list img {
+  display: none;
+}
+
+.layout.list p {
+  width: 90%;
+}
+
+.layout {
+  padding: 2rem;
+  width: 100%;
+}
+
+.layout div {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 9px;
+  transition: transform 0.5s ease;
+}
+
+.layout div:hover {
+  transform: scale(1.1);
+}
+
+
 
 @media screen and (max-width: 480px) {
   h1,
@@ -391,3 +435,16 @@ input:focus {
     font-size: 0.9rem;
   }
 }
+
+@media screen and (max-width: 800px) {
+ .layout.list div {
+  grid-template-columns: 1fr;
+ }
+
+ .layout.list p,a {
+  width: auto;
+  padding: .4rem;
+ }
+}
+
+
