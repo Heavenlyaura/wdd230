@@ -17,7 +17,7 @@ function displayLinks(weeks) {
     
     weeks.forEach(week => {
         let lesson = week.lesson;
-        console.log(lesson)
+        // console.log(lesson)
         let links = week.links // this is an array
 
         links.forEach(item => {
@@ -28,8 +28,8 @@ function displayLinks(weeks) {
 
             aTag.setAttribute('href', url)
             aTag.textContent = `${title} - Week: ${lesson}`
-            console.log(url)
-            console.log(title)
+            // console.log(url)
+            // console.log(title)
 
             li.appendChild(aTag)
             list.appendChild(li)
