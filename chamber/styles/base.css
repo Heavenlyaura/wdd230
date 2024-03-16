@@ -222,11 +222,27 @@ header {
 }
 
 .current-event,
-.weather-card,
+.card,
 .advertisment {
   text-align: center;
   padding: 10px;
+  margin-bottom: 1rem;
 }
+
+.advertisment {
+  position: relative;
+  display: none;
+}
+
+.close {
+  position: absolute;
+  cursor: pointer;
+  top: 1.4rem;
+  right: 1rem;
+  font-size: .8rem;
+}
+
+
 
 /* footer */
 footer {
