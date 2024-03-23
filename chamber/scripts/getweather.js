@@ -19,13 +19,13 @@ if ("geolocation" in navigator) {
 
     });
 } else {
-    console.log("lll");
+    // console.log("lll");
 }
 
 async function getWeather(url) {
     const reponse = await fetch(url);
     const data = await reponse.json();
-    console.log(data);
+    // console.log(data);
     displayWeather(data);
 }
 
@@ -33,7 +33,7 @@ async function getForcast(url) {
     const reponse = await fetch(url);
     if (reponse.ok) {
         const data = await reponse.json();
-        console.log(data);
+        // console.log(data);
         displayForcast(data);
     }
     else {

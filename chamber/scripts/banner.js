@@ -6,7 +6,7 @@ let date = new Date();
 let dayOfWeek = date.getDay();
 let time = date.getDay();
 
-console.log(time)
+// console.log(time)
 
 if (dayOfWeek == 1 || dayOfWeek === 2 || dayOfWeek === 3) {
     advertisment.style.display = 'block';
