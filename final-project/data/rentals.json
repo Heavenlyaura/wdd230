@@ -10,7 +10,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$25",
                 "Full Day" : "$35"
-            }
+            },
+            "image" : "images/rental-1"
         },
 
         {
@@ -23,7 +24,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$35",
                 "Full Day" : "$45"
-            }
+            },
+            "image" : "images/rental-2"
         },
 
         {
@@ -36,7 +38,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$55",
                 "Full Day" : "$55"
-            }
+            },
+            "image" : "images/rental-3"
         },
 
         {
@@ -49,7 +52,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$60",
                 "Full Day" : "$80"
-            }
+            },
+            "image" : "images/rental-4"
         },
 
         {
@@ -62,7 +66,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$85",
                 "Full Day" : "$125"
-            }
+            },
+            "image" : "images/rental-5"
         },
 
         {
@@ -75,7 +80,8 @@
             "Walk In" : {
                 "half Day (3hrs)" : "$70",
                 "Full Day" : "$90"
-            }
+            },
+            "image" : "images/rental-6"
         }
     ]
 }
