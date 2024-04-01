@@ -34,12 +34,13 @@ function displayRentals(data) {
     let walkHalf = data.Walkin.fullDay;
 
     let row = `<tr> 
-    <td data-cell="name" >${type}</td>
-    <td data-cell="maxpersons" >${maxPersons}</td>
-    <td data-cell="reservefull" >${reserveFull}</td>
-    <td data-cell="reserveHalf" >${reserveHalf}</td>
-    <td data-cell="walkFull" >${walkFull}</td>
-    <td data-cell="walkHalf" >${walkHalf}</td>
+    <td data-cell="Rental Type" >${type}</td>
+    <td data-cell="Max. Persons" >${maxPersons}</td>
+    <td data-cell="Half Day (hrs)	" >${reserveFull}</td>
+    <td data-cell="Full Day	" >${reserveHalf}</td>
+    <td data-cell="Half Day (3 hrs)" >${walkFull}</td>
+    <td data-cell="Full Day
+    " >${walkHalf}</td>
     </tr>`
           
         tBody.innerHTML += row

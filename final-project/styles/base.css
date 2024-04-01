@@ -27,6 +27,7 @@ header {
   top: 1rem;
   right: 1rem; */
   cursor: pointer;
+  z-index: 3;
 }
 
 .bar {
@@ -63,6 +64,7 @@ header {
   border: 1px solid black;
   padding: auto;
   background-color: rgba(219, 212, 212, 0.73);
+  z-index: 2;
 }
 
 .nav-bar li {
