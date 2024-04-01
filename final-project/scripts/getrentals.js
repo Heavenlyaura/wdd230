@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/Heavenlyaura/wdd230/380e579f6c882ae1287de90c04d996a42ac0c56c/final-project/data/rentals.json"
+const url = "https://raw.githubusercontent.com/Heavenlyaura/wdd230/main/final-project/data/rentals.json"
 const table = document.querySelector('table');
 // const reservationHead = document.querySelector('.reserve');
 // const walkInHead = document.querySelector('.walk-in');
@@ -23,7 +23,8 @@ function displayRentals(data) {
 
   rentalsData.forEach(data => {
     let type = data.Type;
-    let maxPersons = data.MaxPersons
+    let maxPersons = data.MaxPersons;
+    let reserveFull = data.Reservations;
 
   });
 
