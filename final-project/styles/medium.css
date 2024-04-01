@@ -73,10 +73,17 @@
     flex-direction: row;
     padding: 2rem;
     justify-content: space-between;
+    gap: 1rem ;
   }
 
   .display-1 img {
-    width: 100%;
+    width: 90%;
+    transition: 0.7s;
+  }
+
+  .display-1 img:hover {
+    transform: scale(1.2);
+
   }
 
   .blog {
