@@ -19,12 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  /* border: 1px solid black; */
-
-  /* background-color: var(--main-color); */
 }
-
-/* Hambuger Menu */
 
 .hambuger {
   display: block;
@@ -129,7 +124,8 @@ header {
   flex-direction: column;
 }
 
-.display-1 p, h3 {
+.display-1 p,
+h3 {
   font-size: medium;
 }
 
@@ -189,6 +185,31 @@ header {
   margin: 0;
 }
 
+.rentals img {
+  transform: scaleX(-1);
+}
+
+.showcase h4,
+.showcase p {
+  text-align: center;
+}
+
+.showcase img {
+  width: 90%;
+}
+
+.rental-hero img {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.scale {
+  transform: scaleX(1) !important;
+  /* border: 1px solid black; */
+}
+
+
 footer {
   color: white;
   text-align: center;
@@ -203,4 +224,3 @@ footer a {
   text-decoration: none;
   color: white;
 }
-    
