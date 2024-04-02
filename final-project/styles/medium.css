@@ -1,4 +1,27 @@
 @media screen and (min-width: 642px) {
+  h1 {
+    font-size: 3rem; 
+  }
+
+  h2 {
+    font-size: 1.5rem; /* 50.56px */
+  }
+
+  h3 {
+    font-size: 1.3rem; /* 37.92px */
+  }
+
+  h4 {
+    font-size: 1.1rem; /* 28.48px */
+  }
+
+  h5 {
+    font-size: 1.333rem;
+  }
+
+  small {
+    font-size: 0.75rem; /* 12px */
+  }
 
   .nav-bar {
     display: flex;
@@ -18,13 +41,13 @@
   }
 
   .nav-bar li a {
-    padding: 10px 1rem;    
+    padding: 10px 1rem;
     text-decoration: none;
     position: relative;
   }
 
   .nav-bar li a::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -33,7 +56,6 @@
     transition: width 0.3s ease;
     background-color: black;
     text-align: center;
-
   }
 
   .nav-bar li a:hover::after {
@@ -43,8 +65,6 @@
   .nav-bar li a:active::after {
     width: 100%;
   }
-
-
 
   header {
     justify-content: space-around;
@@ -73,7 +93,7 @@
 
   .welcome {
     position: absolute;
-    top: 25rem;
+    top: 30rem;
     left: 4rem;
     font-size: large;
     animation: slideInFromLeft 1s ease-in forwards;
@@ -92,7 +112,7 @@
     flex-direction: row;
     padding: 2rem;
     justify-content: space-between;
-    gap: 1rem ;
+    gap: 1rem;
   }
 
   .display-1 img {
@@ -102,7 +122,6 @@
 
   .display-1 img:hover {
     transform: scale(1.2);
-
   }
 
   .blog {
@@ -116,21 +135,20 @@
     justify-content: space-around;
   }
 
-
   @keyframes slideInFromLeft {
-    0%{
-        transform: translateX(-100%);
+    0% {
+      transform: translateX(-100%);
     }
-    100%{
-        transform: translateX(0%);
+    100% {
+      transform: translateX(0%);
     }
-}
-@keyframes slideInFromRight {
-    0%{
-        transform: translateX( 100%);
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
     }
-    100%{
-        transform: translateX(0%);
+    100% {
+      transform: translateX(0%);
     }
-}
+  }
 }
