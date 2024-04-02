@@ -9,7 +9,7 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -258,6 +258,8 @@ footer a {
     font-weight: 700;
     text-transform: capitalize;
   }
+
+  
 }
 
 

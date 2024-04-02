@@ -58,16 +58,17 @@
   }
 
   .welcome-img {
-    position: absolute;
     position: relative;
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
     margin-top: 0;
     /* border: 1px solid black; */
   }
 
   .welcome-img img {
+    position: absolute;
+    right: 0;
     width: 90%;
-    transform: scaleX(-1);
+    animation: slideInFromRight 1s ease-in forwards;
   }
 
   .welcome {
@@ -75,6 +76,7 @@
     top: 25rem;
     left: 4rem;
     font-size: large;
+    animation: slideInFromLeft 1s ease-in forwards;
   }
 
   .hambuger {
@@ -113,4 +115,22 @@
     flex-direction: row;
     justify-content: space-around;
   }
+
+
+  @keyframes slideInFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes slideInFromRight {
+    0%{
+        transform: translateX( 100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
 }
