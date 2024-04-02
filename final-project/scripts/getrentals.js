@@ -1,12 +1,12 @@
 const url = "https://raw.githubusercontent.com/Heavenlyaura/wdd230/main/final-project/data/rentals.json"
 const table = document.querySelector('table');
 const tBody = document.querySelector('.tbody');
-const typeHead = document.querySelector('.type')
-const personsHead = document.querySelector('.persons')
-const reservationHead = document.querySelector('.reserve');
-const walkInHead = document.querySelector('.walk-in');
-const walkinHead = document.querySelector('.walk-in')
-const reserveHead = document.querySelector('.reserve')
+// const typeHead = document.querySelector('.type')
+// const personsHead = document.querySelector('.persons')
+// const reservationHead = document.querySelector('.reserve');
+// const walkInHead = document.querySelector('.walk-in');
+// const walkinHead = document.querySelector('.walk-in')
+// const reserveHead = document.querySelector('.reserve')
 
 
 
@@ -32,6 +32,7 @@ function displayRentals(data) {
     let reserveHalf = data.Reservations.halfDay;
     let walkFull = data.Walkin.halfDay;
     let walkHalf = data.Walkin.fullDay;
+
 
     let row = `<tr> 
     <td data-cell="Rental Type" >${type}</td>
