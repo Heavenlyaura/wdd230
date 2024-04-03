@@ -31,7 +31,7 @@
   }
 
   form {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
   }
 
@@ -46,17 +46,17 @@
 
   .drive-in img {
     width: 80%;
-    animation: slideInFromRight 1s ease-in forwards;
+    animation: slideInFromLeft 1s ease-in forwards;
   }
 
-  @keyframes slideInFromRight {
+  /* @keyframes slideInFromRight {
     0% {
       transform: translateX(-100%);
     }
     100% {
       transform: translateX(0%);
     }
-  }
+  } */
 
 
 }

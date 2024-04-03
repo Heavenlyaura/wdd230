@@ -227,11 +227,6 @@ h3 {
   /* border: 1px solid black; */
 }
 
-.scale {
-  transform: scaleX(1) !important;
-  /* border: 1px solid black; */
-}
-
 /* Table Section */
 table {
   width: 100%;
@@ -266,8 +261,8 @@ tr:nth-of-type(2n) {
 
   background: linear-gradient(
     217deg,
-    #e9bb23,
-    #e3e2e2
+    #facd3b,
+    #f0e9e9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -293,9 +288,15 @@ tr:nth-of-type(2n) {
   padding: 0.5rem;
 }
 
+.content {
+  background-color: #eee;
+  border-radius: .5rem;
+}
+
 .form {
   display: flex;
   flex-direction: column;
+  padding: 1rem;
   /* border: 1px solid black; */
 }
 
@@ -303,6 +304,7 @@ tr:nth-of-type(2n) {
 .reservations-main select,
 .reservations-main textarea {
   width: 90%;
+  border: solid #8e8d8d;
   margin: 0 auto;
 }
 
@@ -313,21 +315,46 @@ label {
 .reservations-main input,
 .reservations-main select {
   padding: 0.3rem;
+  border-radius: .5rem;
 }
+
+.reservations-main textarea {
+  border-radius: 0.5rem;
+}
+
 .reservations-main input:focus,
 .reservations-main textarea:focus,
 .reservations-main select:focus {
-  background-color: #fff9e5;
+  background-color: #d6d6d6;
 }
 
 .drive-in img {
   width: 80%;
-  animation: slideInFromRight 1s ease-in forwards;
+  animation: slideInFromLeft 1s ease-in;
 }
 
-/* .drive-in {
-  display: none;
-} */
+.drive-in {
+  text-align: center;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 
 footer {
   color: white;

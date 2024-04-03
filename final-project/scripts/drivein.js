@@ -3,7 +3,7 @@ const rentalTypes = document.querySelector('#rental-type');
 const driveIn = document.querySelector('.drive-in');
 
 let rental1 = 'images/rental-1.png';
-let rental2 = 'images/rental-3.webp';
+let rental2 = 'images/rental-3s.png';
 let rental3 = 'images/rental-3.png';
 let rental4 = 'images/rental-5.png';
 let rental5 = 'images/rental-4.png';
