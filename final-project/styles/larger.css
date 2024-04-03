@@ -15,4 +15,48 @@
     width: 65%;
     /* transform: scaleX(-1); */
   }
+
+  /* Reservation Page */
+
+  .reservations-main input,
+  .reservations-main select,
+  .reservations-main textarea {
+    width: 100%;
+    margin: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  form {
+    border: 1px solid black;
+    width: 50%;
+  }
+
+  .drive-in {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transform: scaleX(-1);
+    /* border: 1px solid black; */
+  }
+
+  .drive-in img {
+    width: 80%;
+    animation: slideInFromRight 1s ease-in forwards;
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+
 }
