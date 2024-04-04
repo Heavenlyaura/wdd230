@@ -222,7 +222,7 @@ h3 {
 }
 
 .rental-hero img {
-  height: 100%;
+  height: 25vh;
   width: 100%;
   /* border: 1px solid black; */
 }
