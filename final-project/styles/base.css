@@ -300,6 +300,14 @@ tr:nth-of-type(2n) {
   /* border: 1px solid black; */
 }
 
+#submit {
+  width: 200px;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
 .reservations-main input,
 .reservations-main select,
 .reservations-main textarea {
