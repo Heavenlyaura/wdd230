@@ -136,6 +136,7 @@ header {
 .hero {
   display: flex;
   flex-direction: column;
+  position: relative;
   /* border: 1px solid black; */
 }
 
@@ -214,6 +215,7 @@ h3 {
 
 .popup {
   position: relative;
+  position: absolute;
   height: 50px;
   width: 200px;
   background-color: white;
