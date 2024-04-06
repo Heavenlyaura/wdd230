@@ -4,6 +4,9 @@ const city = document.querySelector('.city')
 const emoji = document.querySelector(".emoji");
 const days = document.querySelector(".days");
 const apiKey = "";
+const popup = document.querySelector('.popup')
+const popupMsg = document.querySelector('.popup-msg')
+const cancel = document.querySelector('.cancel')
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 
@@ -59,17 +62,14 @@ function displayWeather(data) {
     else if (temp > 30) {
         content = '☀️'
     }
-
     city.textContent = `City: ${cit}`;
     temperature.textContent = `${content} ${temp}C - ${desc}`
-
-
+    popupMsg.textContent = `Max-Temp: ${data.main.temp_max}°C`;
+    console.log(data)
 }
 
 function displayForcast(data) {
     let list = data.list;
-
-    console.log(data)
     let currentDate = new Date();
     let day = currentDate.getDate()
     let dayArray = []
@@ -104,7 +104,11 @@ function displayForcast(data) {
             days.append(forecast);
         }
     });
-
-
-
 }
+
+cancel.addEventListener('click', () => {
+    popup.classList.toggle("click");
+    popup.addEventListener('animationend', function () {
+        popup.remove();
+    }, { once: true });
+})

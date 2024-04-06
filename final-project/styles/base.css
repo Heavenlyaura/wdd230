@@ -198,6 +198,48 @@ h3 {
   background-color: purple;
 }
 
+.rental-summary h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.rental-summary {
+  background-color: #fff9e5;
+  padding: 1rem;
+}
+
+.rental-summary ul {
+  padding: 1.5rem;
+}
+
+.popup {
+  position: relative;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  animation: slideInFromLeft  0.8s ease forwards;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px;
+}
+.popup-msg {
+  padding-left: 1rem;
+}
+
+.cancel {
+  position: absolute;
+  right: .8rem;
+  top: 15px;
+  cursor: pointer;
+  font-size: smaller;
+}
+ 
+.popup.click {
+  animation: slideBack 0.3s ease forwards;
+}
+
 /* Rental Page */
 
 .rentals {
@@ -360,6 +402,16 @@ label {
   }
   100% {
     transform: translateX(0%);
+  } 
+}
+
+@keyframes slideBack {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
   }
 }
 
