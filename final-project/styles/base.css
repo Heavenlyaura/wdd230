@@ -357,6 +357,7 @@ tr:nth-of-type(2n) {
   width: 90%;
   border: solid #8e8d8d;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 label {

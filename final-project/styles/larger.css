@@ -27,12 +27,13 @@
 
   .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   form {
     /* border: 1px solid black; */
     width: 50%;
+    margin: 0 auto;
   }
 
   .drive-in {

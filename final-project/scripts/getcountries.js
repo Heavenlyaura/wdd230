@@ -1,5 +1,5 @@
 const countryTag = document.querySelector('#country');
-const sortCountries = []
+const sortCountries = [];
 
 async function getCountries() {
   let response = await fetch('https://restcountries.com/v3.1/all');
@@ -11,6 +11,7 @@ function displayCountries(data) {
   data.forEach(country => {
     let countryName = country.name.common;
     sortCountries.push(countryName);
+    // console.log(countryName)
   });
   sortCountries.sort()
   sortCountries.forEach(countryName => {
@@ -22,3 +23,6 @@ function displayCountries(data) {
 }
 
 getCountries()
+
+
+
