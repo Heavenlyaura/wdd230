@@ -290,10 +290,6 @@ tr:nth-of-type(2n) {
   margin-top: 1.5rem;
 }
 
-/*  */
-
-/* Footer section */
-
 /* Reservation Page */
 
 .herodiv {
@@ -303,11 +299,6 @@ tr:nth-of-type(2n) {
   height: 20vh;
 
   background-color: var(--main-color);
-  /* background: linear-gradient(
-    217deg,
-    #facd3b,
-    #f0e9e9
-  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .reservations-main {
@@ -467,6 +458,8 @@ iframe {
   height: 400px;
   width: 100%;
 }
+
+/* Footer section */
 
 footer {
   color: white;
