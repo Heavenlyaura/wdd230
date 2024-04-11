@@ -508,11 +508,14 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 10px;
 }
 
 .footer img {
   width: 50px;
   padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 hr {
