@@ -157,6 +157,28 @@
 
   /* Reservation Page */
 
+  /* Footer Page */
+  
+  .footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .links {
+    flex-direction: column;
+  }
+  
+  .links a {
+    color: white;
+    padding: 1rem;
+  }
+  
+  .social-media {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
