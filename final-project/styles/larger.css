@@ -50,7 +50,47 @@
     animation: slideInFromLeft 1s ease-in forwards;
   }
 
-  .contact-form form {
-    width: 50%;
-  } 
+  /* Contact Us Page */
+
+  .formaddress {
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: fit-content;
+}
+
+.contactus-form label,
+.contactus-form input,
+.contactus-form textarea {
+  width: 530px;
+  margin: 0.5rem;
+}
+
+.address {
+  display: block;
+}
+
+.address {
+  height: 537px;
+  width: 393px;
+}
+
+.info-bar {
+  height: 300px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #faf4f4;
+  align-items: center;
+}
+
+.info-bar .info {
+  width: 376px;
+  height: 108px;
+}
+
 }

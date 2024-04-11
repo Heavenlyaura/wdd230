@@ -77,7 +77,7 @@ header {
   position: fixed;
   right: -100%;
   top: 0;
-  flex-direction: column; 
+  flex-direction: column;
   width: 60vw;
   height: 100vh;
   transition: 0.3s;
@@ -218,7 +218,7 @@ h3 {
   height: 50px;
   width: 200px;
   background-color: white;
-  animation: slideInFromLeft  0.8s ease forwards;
+  animation: slideInFromLeft 0.8s ease forwards;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -231,12 +231,12 @@ h3 {
 
 .cancel {
   position: absolute;
-  right: .8rem;
+  right: 0.8rem;
   top: 15px;
   cursor: pointer;
   font-size: smaller;
 }
- 
+
 .popup.click {
   animation: slideBack 0.3s ease forwards;
 }
@@ -325,7 +325,7 @@ tr:nth-of-type(2n) {
 
 .content {
   background-color: #eee;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .form {
@@ -359,7 +359,7 @@ label {
 .reservations-main input,
 .reservations-main select {
   padding: 0.3rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .reservations-main textarea {
@@ -382,24 +382,101 @@ label {
 }
 
 /* Contact Us page */
-
 .contact-hero {
   display: grid;
+  height: 20vh;
 }
 
-.contact-hero img  {
+.contact-hero h2,
+.contact-hero img {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.contact-hero img {
+  overflow: hidden;
   width: 100%;
-  grid-row: 1/2;
-  grid-column: 1/2;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
-.contact-hero h1 {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  z-index: 2;
-  justify-self: center;
+.contact-hero h2 {
   align-self: center;
+  justify-self: center;
   color: white;
+}
+
+.contact-message {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-message h2 {
+  line-height: 54px;
+  font-weight: 600;
+}
+
+.contact-message p {
+  padding: 1rem;
+}
+
+.formaddress {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+.contactus-form input,
+.contactus-form textarea {
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: solid #9f9f9f;
+  padding: 1.3rem;
+}
+
+#submit {
+  width: 237px;
+  height: 48px;
+  border-radius: 15px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+.address {
+  height: 537px;
+}
+
+.address ul {
+  list-style: none;
+}
+
+
+.info-bar {
+  display: flex;
+  background-color: #faf4f4;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-bar .info {
+  height: 100px;
+  padding: 1rem 0;
+}
+
+.info-bar p {
+  padding: 0.5rem 0;
 }
 
 .contact-main {
@@ -410,56 +487,16 @@ label {
   padding: 1rem;
 }
 
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff9e5;
-}
-
-.contact-form  input, .contact-form textarea {
-  width: 90%;
-  margin: 0 auto;
-  border-radius: .5rem;
-  padding: 1rem;
-}
-
-#submit {
-  width: 200px;
-  margin: 1rem auto;
-}
-
-.social-media {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.social-media li {
-  list-style: none;
-}
-
-.social-media img {
-  width: 70%;
-  cursor: pointer;
-}
-
 /* I FRAME */
 
-.iframe {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+iframe {
   width: 100%;
-  text-align: center;
-  margin-top: 20px;
-  padding: 1rem;
+  padding: 1rem 1rem;
 }
 
-iframe {
-
-
-  height: 400px;
-  width: 100%;
+.iframe h3 {
+  text-align: center;
+  padding: 1rem;
 }
 
 /* Footer section */
@@ -494,7 +531,7 @@ footer a {
   }
   100% {
     transform: translateX(0%);
-  } 
+  }
 }
 
 @keyframes slideBack {
