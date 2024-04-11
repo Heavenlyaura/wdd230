@@ -324,52 +324,12 @@ tr:nth-of-type(2n) {
 }
 
 .content {
-  background-color: #eee;
   border-radius: 0.5rem;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  /* border: 1px solid black; */
-}
 
-#submit {
-  width: 200px;
-  background-color: #000;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.reservations-main input,
-.reservations-main select,
-.reservations-main textarea {
-  width: 90%;
-  border: solid #8e8d8d;
+.reserve.contactus-form {
   margin: 0 auto;
-  padding: 1rem;
-}
-
-label {
-  padding: 0.5rem;
-  margin-left: 1rem;
-}
-.reservations-main input,
-.reservations-main select {
-  padding: 0.3rem;
-  border-radius: 0.5rem;
-}
-
-.reservations-main textarea {
-  border-radius: 0.5rem;
-}
-
-.reservations-main input:focus,
-.reservations-main textarea:focus,
-.reservations-main select:focus {
-  background-color: #d6d6d6;
 }
 
 .drive-in img {
@@ -405,6 +365,7 @@ label {
   align-self: center;
   justify-self: center;
   color: white;
+  z-index: 3;
 }
 
 .contact-message {
@@ -437,7 +398,8 @@ label {
 }
 
 .contactus-form input,
-.contactus-form textarea {
+.contactus-form textarea,
+.contactus-form select {
   /* border: 1px solid black; */
   width: 100%;
   margin: 0.5rem 0;

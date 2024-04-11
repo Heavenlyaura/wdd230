@@ -18,11 +18,10 @@
 
   /* Reservation Page */
 
-  .reservations-main input,
-  .reservations-main select,
-  .reservations-main textarea {
+  .form input,
+  .form select,
+  .form textarea {
     width: 100%;
-    margin: 0;
   }
 
   .content {

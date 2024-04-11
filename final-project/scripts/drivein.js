@@ -18,37 +18,37 @@ rentalTypes.addEventListener('change', () => {
     driveIn.innerHTML = ''
   }
 
-  else if (rentalTypes.value === "Metro Scooter") { 
+  else if (rentalTypes.value === "~Honda Metro Scooter") { 
     driveIn.innerHTML = ''
     image.setAttribute('src', rental1)
     image.setAttribute('alt', '~Honda Metro Scooter')
   }
 
-  else if (rentalTypes.value === "Dio Scooter") {
+  else if (rentalTypes.value === "~Honda Dio Scooter") {
     driveIn.innerHTML = ''
     image.setAttribute('src', rental2);
     image.setAttribute('alt', 'Honda Dio Scooter')
   }
 
-  else if (rentalTypes.value === "PCX150 Scooter") {
+  else if (rentalTypes.value === "~Honda PCX150 Scooter") {
     driveIn.innerHTML = ''
     image.setAttribute('src', rental3);
     image.setAttribute('alt', '~Honda PCX150 Scooter')
   }
 
-  else if (rentalTypes.value === "Pioneer ATV") {
+  else if (rentalTypes.value === "Honda Pioneer ATV") {
     driveIn.innerHTML = ''
     image.setAttribute('src', rental4);
     image.setAttribute('alt', 'Honda Pioneer ATV')
   }
 
-  else if (rentalTypes.value === "Wrangler - 4 door with a/c") {
+  else if (rentalTypes.value === "Jeep Wrangler - 4 door with a/c") {
     driveIn.innerHTML = ''
     image.setAttribute('src', rental5);
     image.setAttribute('alt', 'Jeep Wrangler - 4 door with a/c')
   }
 
-  else if (rentalTypes.value === "Wrangler - 2 door") {
+  else if (rentalTypes.value === "Jeep Wrangler - 2 door") {
     driveIn.innerHTML = ''
     image.setAttribute('src', rental6);
     image.setAttribute('alt', 'Jeep Wrangler - 2 door')

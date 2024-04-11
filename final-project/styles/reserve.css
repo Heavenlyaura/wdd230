@@ -1,0 +1,31 @@
+.reserve-main {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.reserve-form {
+  display: flex;
+  flex-direction: column;
+  width: 608px;
+  margin: 0;
+}
+
+.reserve-info {
+  width: 608px;
+  /* border: 1px solid; */
+
+}
+
+.reserve-form input,
+.reserve-form select,
+.reserve-form textarea {
+  padding: 1.2rem;
+  border: solid #9f9f9f;
+  border-radius: 10px;
+  width: 454px;
+}
+
+.product-info {
+  height: 500px;
+}

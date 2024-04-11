@@ -1,16 +1,42 @@
 const url = "https://raw.githubusercontent.com/Heavenlyaura/wdd230/main/final-project/data/rentals.json"
 const table = document.querySelector('table');
 const tBody = document.querySelector('.tbody');
+const productName = document.querySelector('.product-name');
+const priceHalf = document.querySelector('.price-half');
+const priceFull = document.querySelector('.price-full');
+const rentalType = document.querySelector('#rental-type');
 
+rentalType.addEventListener('change', ()=> {
+  productName.innerHTML = '';
+  productName.textContent += rentalType.value;
+})
 
 async function getRentals(url) {
   const response = await fetch(url);
   const data = await response.json();
 
+  console.log(data)
   displayRentals(data)
-  // console.table(data)
+  displayProducts(data)
 };
 
+
+
+
+function displayProducts(products, productValue) {
+  
+  let rentals = products.rentals;
+
+  rentals.forEach(items => {
+    if (productValue === items.type) {
+      
+      let half = Reservations.halfDay;
+      let full = Reservations.fullDay;
+      halfDay.textContent = half;
+      fullDay.textContent = full;
+    }
+  });
+}
 
 
 function displayRentals(data) {
