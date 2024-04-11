@@ -1,5 +1,4 @@
 @media screen and (min-width: 1000px) {
-  
   .welcome {
     font-size: xx-large;
     top: 30rem;
@@ -52,44 +51,59 @@
   /* Contact Us Page */
 
   .formaddress {
-  justify-content: center;
-  flex-direction: row;
-}
+    justify-content: center;
+    flex-direction: row;
+  }
 
-.contactus-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  width: fit-content;
-}
+  .contactus-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: fit-content;
+  }
 
-.contactus-form label,
-.contactus-form input,
-.contactus-form textarea {
-  width: 530px;
-  margin: 0.5rem;
-}
+  .contactus-form label,
+  .contactus-form input,
+  .contactus-form textarea {
+    width: 530px;
+    margin: 0.5rem;
+  }
 
-.address {
-  display: block;
-}
+  .address {
+    display: block;
+  }
 
-.address {
-  height: 537px;
-  width: 393px;
-}
+  .address {
+    height: 537px;
+    width: 393px;
+  }
 
-.info-bar {
-  height: 300px;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #faf4f4;
-  align-items: center;
-}
+  .info-bar {
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #faf4f4;
+    align-items: center;
+  }
 
-.info-bar .info {
-  width: 376px;
-  height: 108px;
-}
+  .info-bar .info {
+    width: 376px;
+    height: 108px;
+  }
 
+  /* Footer */
+  .footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .links a {
+    color: white;
+    padding: 0.6rem;
+  }
+
+  .social-media {
+    justify-content: space-evenly;
+  }
 }
