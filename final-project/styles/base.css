@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Imprima:700|Imprima:400");
 
-body {
+body p, body ul, body a{
   font-family: "Imprima";
   font-weight: 400;
+  font-size: 1.2rem;
 }
 
 h1,
@@ -112,11 +113,11 @@ header {
 }
 
 .welcome h1 {
-  padding: 10px;
+  padding: 1rem;
 }
 
 .welcome a {
-  padding: 6px;
+  padding: 10px;
   background-color: #fff;
   border-radius: 15px;
   text-decoration: none;
@@ -129,14 +130,12 @@ header {
 
 .welcome-img {
   margin-top: 7rem;
-  /* border: 1px solid black; */
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   position: relative;
-  /* border: 1px solid black; */
 }
 
 /* second section  Home Page */
@@ -203,14 +202,20 @@ h3 {
   background-color: purple;
 }
 
-.rental-summary h3 {
+.rental-summary h3, .rental-summary h4, .rental-summary p {
   text-align: center;
   padding: 1rem;
 }
 
 .rental-summary {
   background-color: #fff9e5;
-  padding: 1rem;
+  /* padding: 1rem; */
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .rental-summary ul {
@@ -221,14 +226,15 @@ h3 {
   position: relative;
   position: absolute;
   height: 50px;
-  width: 200px;
+  width: 250px;
   background-color: white;
   animation: slideInFromLeft 0.8s ease forwards;
   display: flex;
   justify-content: start;
   align-items: center;
   border-radius: 1rem;
-  box-shadow: 1px 1px 10px;
+  box-shadow: 1px 1px 10px #8f7210;
+  left: 1rem;
 }
 .popup-msg {
   padding-left: 1rem;
@@ -240,6 +246,7 @@ h3 {
   top: 15px;
   cursor: pointer;
   font-size: smaller;
+  z-index: 5;
 }
 
 .popup.click {

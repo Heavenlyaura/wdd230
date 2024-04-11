@@ -79,11 +79,9 @@
 
   .welcome-img {
     position: relative;
-    /* transform: scaleX(-1); */
     margin-top: 0;
-    /* border: 1px solid black; */
   }
-
+  
   .welcome-img img {
     position: absolute;
     right: 0;
