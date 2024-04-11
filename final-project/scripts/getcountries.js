@@ -11,7 +11,6 @@ function displayCountries(data) {
   data.forEach(country => {
     let countryName = country.name.common;
     sortCountries.push(countryName);
-    // console.log(countryName)
   });
   sortCountries.sort()
   sortCountries.forEach(countryName => {
