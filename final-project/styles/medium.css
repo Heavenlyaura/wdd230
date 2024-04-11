@@ -165,17 +165,13 @@
     align-items: center;
   }
   
-  .links {
-    flex-direction: column;
-  }
   
   .links a {
     color: white;
-    padding: 1rem;
+    padding: .6rem;
   }
   
   .social-media {
-    flex-direction: column;
     justify-content: space-evenly;
   }
 
