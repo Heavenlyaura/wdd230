@@ -261,7 +261,9 @@ h3 {
 }
 
 .showcase img {
-  width: 70%;
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Cover the container fully */
 }
 
 .rental-hero img {
@@ -326,7 +328,6 @@ tr:nth-of-type(2n) {
 .content {
   border-radius: 0.5rem;
 }
-
 
 .reserve.contactus-form {
   margin: 0 auto;
@@ -426,7 +427,6 @@ tr:nth-of-type(2n) {
 .address ul {
   list-style: none;
 }
-
 
 .info-bar {
   display: flex;
