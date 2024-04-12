@@ -432,10 +432,6 @@ tr:nth-of-type(2n) {
   margin-top: 1rem;
 }
 
-.address {
-  height: 537px;
-}
-
 .address ul {
   list-style: none;
 }
@@ -445,6 +441,7 @@ tr:nth-of-type(2n) {
   background-color: #faf4f4;
   flex-direction: column;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .info-bar .info {
