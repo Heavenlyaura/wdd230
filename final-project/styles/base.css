@@ -425,7 +425,7 @@ tr:nth-of-type(2n) {
   width: 237px;
   height: 48px;
   border-radius: 15px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   margin: 0 auto;
   background-color: #000;
   color: #fff;
